@@ -1,0 +1,9 @@
+parameters:
+    sonatra.ajax.kernel_subscriber.class: Sonatra\Bundle\AjaxBundle\EventSubscriber\AjaxSubscriber
+    sonatra_ajax.ajax_id:
+
+services:
+    sonatra.ajax.event_subscriber:
+        class: '%sonatra.ajax.kernel_subscriber.class%'
+        arguments: ['%sonatra_ajax.ajax_id%']
+        tags: [ { name: kernel.event_subscriber } ]
