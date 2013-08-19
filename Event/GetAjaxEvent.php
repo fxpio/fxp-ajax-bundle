@@ -14,6 +14,7 @@ namespace Sonatra\Bundle\AjaxBundle\Event;
 use Symfony\Component\EventDispatcher\Event;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\JsonResponse;
+use Sonatra\Bundle\AjaxBundle\Exception\InvalidArgumentException;
 
 /**
  * Ajax Event dispatched.
