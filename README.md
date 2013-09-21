@@ -1,4 +1,4 @@
-﻿Sonatra Ajax Bundle
+Sonatra Ajax Bundle
 ===================
 
 The Sonatra AjaxBundle allow to intercept the ajax request identified by the event dispatcher.
