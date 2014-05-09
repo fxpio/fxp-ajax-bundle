@@ -116,7 +116,7 @@ class GetAjaxEvent extends Event
      *
      * @param mixed $data
      *
-     * @return FilterAjaxEvent
+     * @return GetAjaxEvent
      */
     public function setData($data)
     {
