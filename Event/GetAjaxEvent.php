@@ -13,8 +13,11 @@ namespace Sonatra\Bundle\AjaxBundle\Event;
 
 use Symfony\Component\EventDispatcher\Event;
 use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\HttpFoundation\JsonResponse;
 use Sonatra\Bundle\AjaxBundle\Exception\InvalidArgumentException;
+use Symfony\Component\Serializer\Encoder\JsonEncoder;
+use Symfony\Component\Serializer\Encoder\XmlEncoder;
+use Symfony\Component\Serializer\Normalizer\GetSetMethodNormalizer;
+use Symfony\Component\Serializer\Serializer;
 
 /**
  * Ajax Event dispatched.
@@ -41,7 +44,7 @@ class GetAjaxEvent extends Event
     /**
      * @var array
      */
-    protected $formats = array('xml', 'json', 'html');
+    protected $formats = array('xml', 'json');
 
     /**
      * Constructor.
@@ -142,19 +145,19 @@ class GetAjaxEvent extends Event
      */
     public function generateResponse()
     {
-        $response = new Response();
-
-        if ('json' === $this->getFormat()) {
-            $response = new JsonResponse();
-        }
-
         $data = $this->getData();
 
         if ($data instanceof \Closure) {
             $data = $data();
         }
 
-        $response->setData($data);
+        $encoders = array(new XmlEncoder(), new JsonEncoder());
+        $normalizers = array(new GetSetMethodNormalizer());
+        $serializer = new Serializer($normalizers, $encoders);
+
+        $response = new Response();
+        $response->headers->set('Content-Type', 'application/' . $this->getFormat());
+        $response->setContent($serializer->serialize($data, $this->getFormat()));
 
         return $response;
     }
