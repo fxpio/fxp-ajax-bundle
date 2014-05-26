@@ -31,8 +31,8 @@ class SonatraAjaxExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
-        $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
-        $loader->load('ajax.yml');
+        $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
+        $loader->load('ajax.xml');
 
         if (isset($config['ajax_id_parameter'])) {
             $container->setParameter('sonatra_ajax.ajax_id', $config['ajax_id_parameter']);
