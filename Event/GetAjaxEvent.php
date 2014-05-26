@@ -93,7 +93,7 @@ class GetAjaxEvent extends Event
     {
         if (!in_array($format, $this->formats)) {
             $msg = "The '%s' format is not allowed. Try with '%s'";
-            throw new InvalidArgumentException(sprintf($msg, implode("', '", $format, $this->formats)));
+            throw new InvalidArgumentException(sprintf($msg, $format, implode("', '", $this->formats)));
         }
 
         $this->format = $format;
