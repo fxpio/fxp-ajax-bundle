@@ -3,6 +3,7 @@ Sonatra Ajax Bundle
 
 [![Latest Stable Version](https://poser.pugx.org/sonatra/ajax-bundle/v/stable.svg)](https://packagist.org/packages/sonatra/ajax-bundle)
 [![Latest Unstable Version](https://poser.pugx.org/sonatra/ajax-bundle/v/unstable.svg)](https://packagist.org/packages/sonatra/ajax-bundle)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sonatra/SonatraAjaxBundle/badges/quality-score.png)](https://scrutinizer-ci.com/g/sonatra/SonatraAjaxBundle)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/199a01f9-dd83-4f81-b1d2-c1d4fb00868a/mini.png)](https://insight.sensiolabs.com/projects/199a01f9-dd83-4f81-b1d2-c1d4fb00868a)
 
 The Sonatra AjaxBundle allow to intercept the ajax request identified by the event dispatcher.
