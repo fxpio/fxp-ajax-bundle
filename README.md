@@ -1,6 +1,9 @@
 Sonatra Ajax Bundle
 ===================
 
+[![Latest Stable Version](https://poser.pugx.org/sonatra/ajax-bundle/v/stable.svg)](https://packagist.org/packages/sonatra/ajax-bundle)
+[![Latest Unstable Version](https://poser.pugx.org/sonatra/ajax-bundle/v/unstable.svg)](https://packagist.org/packages/sonatra/ajax-bundle)
+
 The Sonatra AjaxBundle allow to intercept the ajax request identified by the event dispatcher.
 It allows, for example, for view controller to indicating to the event dispatcher, the answer 
 to be built, if the AJAX request with the identifier is find.
