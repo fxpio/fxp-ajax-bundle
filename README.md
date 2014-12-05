@@ -1,8 +1,7 @@
 Sonatra Ajax Bundle
 ===================
 
-[![Latest Stable Version](https://poser.pugx.org/sonatra/ajax-bundle/v/stable.svg)](https://packagist.org/packages/sonatra/ajax-bundle)
-[![Latest Unstable Version](https://poser.pugx.org/sonatra/ajax-bundle/v/unstable.svg)](https://packagist.org/packages/sonatra/ajax-bundle)
+[![Latest Version](https://img.shields.io/packagist/v/sonatra/ajax-bundle.svg)](https://packagist.org/packages/sonatra/ajax-bundle)
 [![Build Status](https://travis-ci.org/sonatra/SonatraAjaxBundle.svg)](https://travis-ci.org/sonatra/SonatraAjaxBundle)
 [![Coverage Status](https://img.shields.io/coveralls/sonatra/SonatraAjaxBundle.svg)](https://coveralls.io/r/sonatra/SonatraAjaxBundle)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sonatra/SonatraAjaxBundle/badges/quality-score.png)](https://scrutinizer-ci.com/g/sonatra/SonatraAjaxBundle)
