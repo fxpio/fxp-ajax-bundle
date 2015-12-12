@@ -155,7 +155,7 @@ class GetAjaxEvent extends Event
         $serializer = new Serializer($normalizers, $encoders);
 
         $response = new Response();
-        $response->headers->set('Content-Type', 'application/' . $this->getFormat());
+        $response->headers->set('Content-Type', 'application/'.$this->getFormat());
         $response->setContent($serializer->serialize($data, $this->getFormat()));
 
         return $response;
