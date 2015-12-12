@@ -90,7 +90,6 @@ class GetAjaxEvent extends Event
      * @return GetAjaxEvent
      *
      * @throws InvalidArgumentException When the format is not allowed
-     *
      */
     public function setFormat($format)
     {
