@@ -131,7 +131,7 @@ class GetAjaxEvent extends Event
      * Get data.
      *
      * @return mixed
-    */
+     */
     public function getData()
     {
         return $this->data;
