@@ -10,6 +10,7 @@
  */
 
 namespace Sonatra\Bundle\AjaxBundle;
+
 /**
  * Contains all events thrown in the Ajax Bundle.
  *
