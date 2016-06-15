@@ -35,9 +35,11 @@ class GetAjaxEventTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('xml', $event->getFormat());
     }
 
+    /**
+     * @expectedException \Sonatra\Bundle\AjaxBundle\Exception\InvalidArgumentException
+     */
     public function testInvalidFormat()
     {
-        $this->setExpectedException('Sonatra\Bundle\AjaxBundle\Exception\InvalidArgumentException');
         new GetAjaxEvent('foobar', 'format');
     }
 

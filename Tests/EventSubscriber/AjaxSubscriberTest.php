@@ -48,7 +48,7 @@ class AjaxSubscriberTest extends \PHPUnit_Framework_TestCase
         $this->dispatcher = new EventDispatcher();
         $this->subscriber = new AjaxSubscriber('foobar');
         $this->dispatcher->addSubscriber($this->subscriber);
-        $this->kernel = $this->getMock('Symfony\Component\HttpKernel\HttpKernelInterface');
+        $this->kernel = $this->getMockBuilder('Symfony\Component\HttpKernel\HttpKernelInterface')->getMock();
     }
 
     protected function tearDown()
