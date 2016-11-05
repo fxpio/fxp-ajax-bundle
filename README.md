@@ -15,8 +15,7 @@ Mainly used for Symfony custom form type with ajax interactions.
 
 Features include:
 
-- Event listener for data injection (used by the controller for example)
-- Event listener for kernel response (replace response by the json/xml data formatted)
+- All features of [Sonatra Ajax](https://github.com/sonatra/sonatra-ajax)
 
 Documentation
 -------------
