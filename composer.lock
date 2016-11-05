@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bb72cc7284b7166a72eb5874b8d80632",
-    "content-hash": "44580784f52565afe709040bdab4eaa5",
+    "hash": "5900b5988246dfd0cc3bb553ec4003e7",
+    "content-hash": "773a3e912503bb30e4da6ae3f1e42ff7",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -346,16 +346,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonatra/sonatra-ajax.git",
-                "reference": "b296ca1dccb6f32b7a3c05e81bfa6824b9240fcd"
+                "reference": "b5c58b89baa0af15d81a9c93cd8646e91aea5d0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonatra/sonatra-ajax/zipball/b296ca1dccb6f32b7a3c05e81bfa6824b9240fcd",
-                "reference": "b296ca1dccb6f32b7a3c05e81bfa6824b9240fcd",
+                "url": "https://api.github.com/repos/sonatra/sonatra-ajax/zipball/b5c58b89baa0af15d81a9c93cd8646e91aea5d0e",
+                "reference": "b5c58b89baa0af15d81a9c93cd8646e91aea5d0e",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.0",
+                "php": ">=5.6.0",
                 "symfony/event-dispatcher": "~3.0",
                 "symfony/http-foundation": "~3.0",
                 "symfony/http-kernel": "~3.0",
@@ -390,7 +390,7 @@
             "keywords": [
                 "AJAX response"
             ],
-            "time": "2016-11-05 09:16:45"
+            "time": "2016-11-05 13:46:38"
         },
         {
             "name": "symfony/asset",
@@ -1807,7 +1807,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.5.0"
+        "php": ">=5.6.0"
     },
     "platform-dev": []
 }
