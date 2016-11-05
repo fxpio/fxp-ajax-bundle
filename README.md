@@ -11,7 +11,7 @@ The Sonatra AjaxBundle allow to intercept the ajax request identified by the eve
 It allows, for example, for view controller to indicating to the event dispatcher, the answer 
 to be built, if the AJAX request with the identifier is find.
 
-Mainly used for Symfony2 custom form type with ajax interactions.
+Mainly used for Symfony custom form type with ajax interactions.
 
 Features include:
 
