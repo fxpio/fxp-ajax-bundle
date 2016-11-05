@@ -42,7 +42,7 @@ About
 -----
 
 Sonatra AjaxBundle is a [sonatra](https://github.com/sonatra) initiative.
-See also the list of [contributors](https://github.com/sonatra/SonatraAjaxBundle/contributors).
+See also the list of [contributors](https://github.com/sonatra/SonatraAjaxBundle/graphs/contributors).
 
 Reporting an issue or a feature request
 ---------------------------------------

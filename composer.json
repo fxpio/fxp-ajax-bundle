@@ -14,7 +14,8 @@
     "require": {
         "php": ">=5.5.0",
         "symfony/framework-bundle": "~3.0",
-        "symfony/serializer": "~3.0"
+        "symfony/serializer": "~3.0",
+        "sonatra/ajax": "~1.0@dev"
     },
     "autoload": {
         "psr-4": { "Sonatra\\Bundle\\AjaxBundle\\": "" },
