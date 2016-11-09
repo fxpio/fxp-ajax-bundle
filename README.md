@@ -2,9 +2,9 @@ Sonatra Ajax Bundle
 ===================
 
 [![Latest Version](https://img.shields.io/packagist/v/sonatra/ajax-bundle.svg)](https://packagist.org/packages/sonatra/ajax-bundle)
-[![Build Status](https://img.shields.io/travis/sonatra/SonatraAjaxBundle/master.svg)](https://travis-ci.org/sonatra/SonatraAjaxBundle)
-[![Coverage Status](https://img.shields.io/coveralls/sonatra/SonatraAjaxBundle/master.svg)](https://coveralls.io/r/sonatra/SonatraAjaxBundle?branch=master)
-[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/sonatra/SonatraAjaxBundle/master.svg)](https://scrutinizer-ci.com/g/sonatra/SonatraAjaxBundle?branch=master)
+[![Build Status](https://img.shields.io/travis/sonatra/sonatra-ajax-bundle/master.svg)](https://travis-ci.org/sonatra/sonatra-ajax-bundle)
+[![Coverage Status](https://img.shields.io/coveralls/sonatra/sonatra-ajax-bundle/master.svg)](https://coveralls.io/r/sonatra/sonatra-ajax-bundle?branch=master)
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/sonatra/sonatra-ajax-bundle/master.svg)](https://scrutinizer-ci.com/g/sonatra/sonatra-ajax-bundle?branch=master)
 [![SensioLabsInsight](https://img.shields.io/sensiolabs/i/199a01f9-dd83-4f81-b1d2-c1d4fb00868a.svg)](https://insight.sensiolabs.com/projects/199a01f9-dd83-4f81-b1d2-c1d4fb00868a)
 
 The Sonatra AjaxBundle allow to intercept the ajax request identified by the event dispatcher.
@@ -41,12 +41,12 @@ About
 -----
 
 Sonatra AjaxBundle is a [sonatra](https://github.com/sonatra) initiative.
-See also the list of [contributors](https://github.com/sonatra/SonatraAjaxBundle/graphs/contributors).
+See also the list of [contributors](https://github.com/sonatra/sonatra-ajax-bundle/graphs/contributors).
 
 Reporting an issue or a feature request
 ---------------------------------------
 
-Issues and feature requests are tracked in the [Github issue tracker](https://github.com/sonatra/SonatraAjaxBundle/issues).
+Issues and feature requests are tracked in the [Github issue tracker](https://github.com/sonatra/sonatra-ajax-bundle/issues).
 
 When reporting a bug, it may be a good idea to reproduce it in a basic project
 built using the [Symfony Standard Edition](https://github.com/symfony/symfony-standard)

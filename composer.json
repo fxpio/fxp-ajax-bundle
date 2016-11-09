@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "Intercept the ajax request identified by the event dispatcher",
     "keywords": ["AJAX response"],
-    "homepage": "https://github.com/sonatra/SonatraAjaxBundle",
+    "homepage": "https://github.com/sonatra/sonatra-ajax-bundle",
     "license": "MIT",
     "authors": [
         {
