@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5900b5988246dfd0cc3bb553ec4003e7",
+    "hash": "06d32567b11af63322b8ae7438b17214",
     "content-hash": "773a3e912503bb30e4da6ae3f1e42ff7",
     "packages": [
         {
@@ -201,16 +201,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.3",
+            "version": "v2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "c0125896dbb151380ab47e96c621741e79623beb"
+                "reference": "a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/c0125896dbb151380ab47e96c621741e79623beb",
-                "reference": "c0125896dbb151380ab47e96c621741e79623beb",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e",
+                "reference": "a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e",
                 "shasum": ""
             },
             "require": {
@@ -245,7 +245,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-10-17 15:23:22"
+            "time": "2016-11-07 23:38:38"
         },
         {
             "name": "psr/cache",
@@ -346,12 +346,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonatra/sonatra-ajax.git",
-                "reference": "b5c58b89baa0af15d81a9c93cd8646e91aea5d0e"
+                "reference": "7fbaf40cfee3f9ba6a5a9e1ba18cc3e063e14d0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonatra/sonatra-ajax/zipball/b5c58b89baa0af15d81a9c93cd8646e91aea5d0e",
-                "reference": "b5c58b89baa0af15d81a9c93cd8646e91aea5d0e",
+                "url": "https://api.github.com/repos/sonatra/sonatra-ajax/zipball/7fbaf40cfee3f9ba6a5a9e1ba18cc3e063e14d0f",
+                "reference": "7fbaf40cfee3f9ba6a5a9e1ba18cc3e063e14d0f",
                 "shasum": ""
             },
             "require": {
@@ -390,7 +390,7 @@
             "keywords": [
                 "AJAX response"
             ],
-            "time": "2016-11-05 13:46:38"
+            "time": "2016-11-05 13:59:54"
         },
         {
             "name": "symfony/asset",
