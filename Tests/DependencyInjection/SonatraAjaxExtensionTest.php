@@ -11,9 +11,9 @@
 
 namespace Sonatra\Bundle\AjaxBundle\Tests\DependencyInjection;
 
-use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Sonatra\Bundle\AjaxBundle\SonatraAjaxBundle;
 use Sonatra\Bundle\AjaxBundle\DependencyInjection\SonatraAjaxExtension;
+use Sonatra\Bundle\AjaxBundle\SonatraAjaxBundle;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 /**
  * Tests case for Extension.

@@ -11,8 +11,8 @@
 
 namespace Sonatra\Bundle\AjaxBundle\Tests\DependencyInjection;
 
-use Symfony\Component\Config\Definition\Processor;
 use Sonatra\Bundle\AjaxBundle\DependencyInjection\Configuration;
+use Symfony\Component\Config\Definition\Processor;
 
 /**
  * Tests case for Configuration.
