@@ -11,6 +11,7 @@
 
 namespace Sonatra\Bundle\AjaxBundle\Tests\DependencyInjection;
 
+use PHPUnit\Framework\TestCase;
 use Sonatra\Bundle\AjaxBundle\DependencyInjection\SonatraAjaxExtension;
 use Sonatra\Bundle\AjaxBundle\SonatraAjaxBundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -20,7 +21,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
  *
  * @author François Pluchino <francois.pluchino@sonatra.com>
  */
-class SonatraAjaxExtensionTest extends \PHPUnit_Framework_TestCase
+class SonatraAjaxExtensionTest extends TestCase
 {
     public function testExtensionExist()
     {
