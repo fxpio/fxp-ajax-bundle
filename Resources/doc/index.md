@@ -15,12 +15,12 @@ Installation is a quick, 2 step process:
 
 ### Step 1: Download the bundle using composer
 
-Add Sonatra AjaxBundle in your composer.json:
+Add Fxp AjaxBundle in your composer.json:
 
 ```js
 {
     "require": {
-        "sonatra/ajax-bundle": "~1.0"
+        "fxp/ajax-bundle": "~1.0"
     }
 }
 ```
@@ -28,10 +28,10 @@ Add Sonatra AjaxBundle in your composer.json:
 Or tell composer to download the bundle by running the command:
 
 ```bash
-$ php composer.phar require sonatra/ajax-bundle:"~1.0"
+$ php composer.phar require fxp/ajax-bundle:"~1.0"
 ```
 
-Composer will install the bundle to your project's `vendor/sonatra` directory.
+Composer will install the bundle to your project's `vendor/fxp` directory.
 
 ### Step 2: Enable the bundle
 
@@ -44,24 +44,24 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new Sonatra\Bundle\AjaxBundle\SonatraAjaxBundle(),
+        new Fxp\Bundle\AjaxBundle\FxpAjaxBundle(),
     );
 }
 ```
 
 ### Step 3: Configure the bundle (optional)
 
-You can override the default configuration adding `sonatra_ajax` tree in `app/config/config.yml`.
-For see the reference of Sonatra Ajax Configuration, execute command:
+You can override the default configuration adding `fxp_ajax` tree in `app/config/config.yml`.
+For see the reference of Fxp Ajax Configuration, execute command:
 
 ```bash
-$ php app/console config:dump-reference SonatraAjaxBundle 
+$ php app/console config:dump-reference FxpAjaxBundle 
 ```
 
 ### Next Steps
 
 Now that you have completed the basic installation and configuration of the
-Sonatra AjaxBundle, you are ready to learn about usages of the bundle.
+Fxp AjaxBundle, you are ready to learn about usages of the bundle.
 
 The following documents are available:
 

@@ -1,24 +1,24 @@
 <?php
 
 /*
- * This file is part of the Sonatra package.
+ * This file is part of the Fxp package.
  *
- * (c) François Pluchino <francois.pluchino@sonatra.com>
+ * (c) François Pluchino <francois.pluchino@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Sonatra\Bundle\AjaxBundle\Tests\DependencyInjection;
+namespace Fxp\Bundle\AjaxBundle\Tests\DependencyInjection;
 
 use PHPUnit\Framework\TestCase;
-use Sonatra\Bundle\AjaxBundle\DependencyInjection\Configuration;
+use Fxp\Bundle\AjaxBundle\DependencyInjection\Configuration;
 use Symfony\Component\Config\Definition\Processor;
 
 /**
  * Tests case for Configuration.
  *
- * @author François Pluchino <francois.pluchino@sonatra.com>
+ * @author François Pluchino <francois.pluchino@gmail.com>
  */
 class ConfigurationTest extends TestCase
 {
