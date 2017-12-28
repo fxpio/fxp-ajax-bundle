@@ -39,7 +39,7 @@ class FxpAjaxExtensionTest extends TestCase
 
     protected function createContainer()
     {
-        $configs = array();
+        $configs = [];
         $container = new ContainerBuilder();
 
         $bundle = new FxpAjaxBundle();
@@ -49,8 +49,8 @@ class FxpAjaxExtensionTest extends TestCase
         $container->registerExtension($extension);
         $extension->load($configs, $container);
 
-        $container->getCompilerPassConfig()->setOptimizationPasses(array());
-        $container->getCompilerPassConfig()->setRemovingPasses(array());
+        $container->getCompilerPassConfig()->setOptimizationPasses([]);
+        $container->getCompilerPassConfig()->setRemovingPasses([]);
         $container->compile();
 
         return $container;

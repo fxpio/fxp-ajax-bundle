@@ -25,18 +25,18 @@ class ConfigurationTest extends TestCase
     public function testDefaultConfig()
     {
         $processor = new Processor();
-        $config = $processor->processConfiguration(new Configuration(), array(array()));
+        $config = $processor->processConfiguration(new Configuration(), [[]]);
 
         $this->assertEquals(
-                array_merge(array(), self::getBundleDefaultConfig()),
+                array_merge([], self::getBundleDefaultConfig()),
                 $config
         );
     }
 
     protected static function getBundleDefaultConfig()
     {
-        return array(
+        return [
             'ajax_id_parameter' => 'ajax_id',
-        );
+        ];
     }
 }
